@@ -6,7 +6,6 @@ library(tidyverse)
 
 
 # Loadin data
-file = "C:\\Users\\admin\\OneDrive\\2_DataScience\\R_ShinyProject\\HR_Project\\core_dataset.csv"
 
 data <- data.table::fread(file, stringsAsFactors = FALSE)
 
