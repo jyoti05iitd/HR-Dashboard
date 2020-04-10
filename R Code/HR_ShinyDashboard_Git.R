@@ -5,7 +5,7 @@ library(shinydashboard)
 library(tidyverse)
 
 
-# Loadin data
+# Loading data
 
 data <- data.table::fread(file, stringsAsFactors = FALSE)
 
